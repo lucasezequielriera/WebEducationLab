@@ -22,7 +22,7 @@ export default function Home() {
       </button>
 
       {/* Hero Section */}
-      <header className="flex justify-center items-center h-screen bg-gradient-to-r from-blue-500 to-teal-500 text-center mb-16 relative">
+      <header className="flex justify-center items-center h-screen text-center relative">
         <div className="absolute top-0 left-0 right-0 bottom-0 bg-gradient-to-r from-blue-600 via-teal-600 to-green-600 opacity-40 z-0"></div>
         <div className="relative z-10 text-white p-6">
           <h1 className="text-6xl font-extrabold mb-6 tracking-tight">{t('home.title')}</h1>
@@ -39,7 +39,7 @@ export default function Home() {
       </header>
 
       {/* Features Section */}
-      <section className="text-center mb-24 px-6 sm:px-0">
+      <section className="text-center mb-24 px-6 sm:px-0 mt-16">
         <h2 className="text-4xl sm:text-5xl font-semibold text-gray-800 mb-6">{t('home.featuresTitle')}</h2>
         <div className="flex flex-wrap justify-center gap-16">
           <div className="bg-white p-8 rounded-xl shadow-xl w-[300px] hover:scale-105 transition-all duration-500">
@@ -64,7 +64,7 @@ export default function Home() {
           <div className="bg-white p-8 rounded-xl shadow-xl w-[320px] hover:scale-105 transform transition-all duration-500">
             <h3 className="text-2xl font-semibold text-gray-800">{t('home.planBasic')}</h3>
             <p className="text-gray-600 mt-2">{t('home.planBasicDesc')}</p>
-            <p className="text-2xl font-bold text-gray-800 mt-4">$19/month</p>
+            <p className="text-2xl font-bold text-gray-800 mt-4 mb-5">$19/month</p>
             <Link href="/register" className="mt-6 px-8 py-3 bg-gradient-to-r from-blue-600 to-teal-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all ease-in-out">
               {t('home.getStarted')}
             </Link>
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="bg-white p-8 rounded-xl shadow-xl w-[320px] hover:scale-105 transform transition-all duration-500">
             <h3 className="text-2xl font-semibold text-gray-800">{t('home.planPro')}</h3>
             <p className="text-gray-600 mt-2">{t('home.planProDesc')}</p>
-            <p className="text-2xl font-bold text-gray-800 mt-4">$39/month</p>
+            <p className="text-2xl font-bold text-gray-800 mt-4 mb-5">$39/month</p>
             <Link href="/register" className="mt-6 px-8 py-3 bg-gradient-to-r from-blue-600 to-teal-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all ease-in-out">
               {t('home.getStarted')}
             </Link>
@@ -80,7 +80,7 @@ export default function Home() {
           <div className="bg-white p-8 rounded-xl shadow-xl w-[320px] hover:scale-105 transform transition-all duration-500">
             <h3 className="text-2xl font-semibold text-gray-800">{t('home.planEnterprise')}</h3>
             <p className="text-gray-600 mt-2">{t('home.planEnterpriseDesc')}</p>
-            <p className="text-2xl font-bold text-gray-800 mt-4">$99/month</p>
+            <p className="text-2xl font-bold text-gray-800 mt-4 mb-5">$99/month</p>
             <Link href="/register" className="mt-6 px-8 py-3 bg-gradient-to-r from-blue-600 to-teal-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all ease-in-out">
               {t('home.getStarted')}
             </Link>
@@ -89,7 +89,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="bg-gray-100 p-10 text-center mb-24">
+      <section className="p-10 text-center mb-24">
         <h2 className="text-4xl font-semibold text-gray-800 mb-6">{t('home.testimonialsTitle')}</h2>
         <div className="flex justify-center gap-12">
           <div className="bg-white p-6 rounded-lg shadow-lg w-[250px]">
