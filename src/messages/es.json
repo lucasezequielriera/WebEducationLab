@@ -1,19 +1,29 @@
 {
     "home": {
       "title": "Bienvenido a WebEducationLab",
-      "description": "Aprende con cursos interactivos y mejora tus habilidades",
-      "cta": "¡Comienza hoy mismo!",
+      "description": "Aprende con cursos interactivos, accede desde cualquier dispositivo y mejora tus habilidades con nosotros.",
+      "cta": "Comienza hoy mismo",
       "subtext": "Miles de usuarios ya están aprendiendo con nosotros.",
       "featuresTitle": "Características",
-      "feature1": "Cursos interactivos",
-      "feature2": "Certificados al completar",
-      "feature3": "Accede desde cualquier dispositivo",
+      "feature1": "Cursos Interactivos",
+      "feature1Desc": "Aprende a tu propio ritmo con contenido interactivo y práctico.",
+      "feature2": "Certificados al Completar",
+      "feature2Desc": "Obtén un certificado profesional al completar los cursos con éxito.",
+      "feature3": "Accesibilidad en cualquier dispositivo",
+      "feature3Desc": "Accede a nuestros cursos desde cualquier dispositivo y en cualquier momento.",
+      "pricingTitle": "Planes y Precios",
+      "planBasic": "Plan Básico",
+      "planBasicDesc": "Ideal para principiantes, acceso a contenido básico.",
+      "planPro": "Plan Pro",
+      "planProDesc": "Para usuarios avanzados, incluye material adicional.",
+      "planEnterprise": "Plan Enterprise",
+      "planEnterpriseDesc": "Solución completa para equipos y empresas.",
+      "getStarted": "Comenzar",
+      "testimonialsTitle": "Lo que dicen nuestros usuarios",
+      "ctaTitle": "Únete hoy mismo",
+      "ctaDescription": "Comienza tu viaje de aprendizaje con WebEducationLab.",
       "login": "Iniciar sesión",
-      "register": "Registrarse",
-      "loginTitle": "Iniciar sesión",
-      "registerTitle": "Registrarse",
-      "loginDescription": "Por favor ingresa tus credenciales para iniciar sesión.",
-      "registerDescription": "Crea una cuenta para comenzar a aprender."
+      "register": "Registrarse"
     }
   }
   
