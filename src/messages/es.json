@@ -1,7 +1,19 @@
 {
     "home": {
       "title": "Bienvenido a WebEducationLab",
-      "description": "Aprendé programación con cursos interactivos y certificados"
+      "description": "Aprende con cursos interactivos y mejora tus habilidades",
+      "cta": "¡Comienza hoy mismo!",
+      "subtext": "Miles de usuarios ya están aprendiendo con nosotros.",
+      "featuresTitle": "Características",
+      "feature1": "Cursos interactivos",
+      "feature2": "Certificados al completar",
+      "feature3": "Accede desde cualquier dispositivo",
+      "login": "Iniciar sesión",
+      "register": "Registrarse",
+      "loginTitle": "Iniciar sesión",
+      "registerTitle": "Registrarse",
+      "loginDescription": "Por favor ingresa tus credenciales para iniciar sesión.",
+      "registerDescription": "Crea una cuenta para comenzar a aprender."
     }
   }
   

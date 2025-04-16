@@ -1,20 +1,20 @@
 import './globals.css'
-import { NextIntlClientProvider, useMessages } from 'next-intl'
-import { locales } from '../i18n'
+import I18nextProviderWrapper from './i18n/I18nextProviderWrapper'
 
 export function generateStaticParams() {
-  return locales.map(locale => ({ locale }))
+  return [
+    { locale: 'en' },
+    { locale: 'es' },
+  ]
 }
 
 export default function RootLayout({ children, params }) {
-  const messages = useMessages()
-
   return (
     <html lang={params.locale}>
       <body>
-        <NextIntlClientProvider locale={params.locale} messages={messages}>
+        <I18nextProviderWrapper>
           {children}
-        </NextIntlClientProvider>
+        </I18nextProviderWrapper>
       </body>
     </html>
   )
