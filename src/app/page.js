@@ -64,7 +64,7 @@ export default function Home() {
           <div className="bg-white p-8 rounded-xl shadow-xl w-[320px] hover:scale-105 transform transition-all duration-500">
             <h3 className="text-2xl font-semibold text-gray-800">{t('home.planBasic')}</h3>
             <p className="text-gray-600 mt-2">{t('home.planBasicDesc')}</p>
-            <p className="text-2xl font-bold text-gray-800 mt-4 mb-5">$19/month</p>
+            <p className="text-2xl font-bold text-gray-800 mt-4 mb-5">{t('home.price1')}</p>
             <Link href="/register" className="mt-6 px-8 py-3 bg-gradient-to-r from-blue-600 to-teal-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all ease-in-out">
               {t('home.getStarted')}
             </Link>
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="bg-white p-8 rounded-xl shadow-xl w-[320px] hover:scale-105 transform transition-all duration-500">
             <h3 className="text-2xl font-semibold text-gray-800">{t('home.planPro')}</h3>
             <p className="text-gray-600 mt-2">{t('home.planProDesc')}</p>
-            <p className="text-2xl font-bold text-gray-800 mt-4 mb-5">$39/month</p>
+            <p className="text-2xl font-bold text-gray-800 mt-4 mb-5">{t('home.price2')}</p>
             <Link href="/register" className="mt-6 px-8 py-3 bg-gradient-to-r from-blue-600 to-teal-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all ease-in-out">
               {t('home.getStarted')}
             </Link>
@@ -80,7 +80,7 @@ export default function Home() {
           <div className="bg-white p-8 rounded-xl shadow-xl w-[320px] hover:scale-105 transform transition-all duration-500">
             <h3 className="text-2xl font-semibold text-gray-800">{t('home.planEnterprise')}</h3>
             <p className="text-gray-600 mt-2">{t('home.planEnterpriseDesc')}</p>
-            <p className="text-2xl font-bold text-gray-800 mt-4 mb-5">$99/month</p>
+            <p className="text-2xl font-bold text-gray-800 mt-4 mb-5">{t('home.price3')}</p>
             <Link href="/register" className="mt-6 px-8 py-3 bg-gradient-to-r from-blue-600 to-teal-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition-all ease-in-out">
               {t('home.getStarted')}
             </Link>
@@ -93,11 +93,11 @@ export default function Home() {
         <h2 className="text-4xl font-semibold text-gray-800 mb-6">{t('home.testimonialsTitle')}</h2>
         <div className="flex justify-center gap-12">
           <div className="bg-white p-6 rounded-lg shadow-lg w-[250px]">
-            <p className="text-gray-600 mb-4">"Una plataforma increíble para aprender de forma interactiva. ¡Recomendada al 100%!"</p>
+            <p className="text-gray-600 mb-4">{t('home.comment1')}</p>
             <p className="text-lg font-semibold text-gray-800">Juan Pérez</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-lg w-[250px]">
-            <p className="text-gray-600 mb-4">"Excelente contenido, fácil de seguir y muy útil para mejorar mis habilidades técnicas."</p>
+            <p className="text-gray-600 mb-4">{t('home.comment2')}</p>
             <p className="text-lg font-semibold text-gray-800">María López</p>
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="w-full bg-gray-900 text-white p-6 text-center">
-        <p>&copy; 2025 WebEducationLab - Todos los derechos reservados</p>
+        <p>&copy; 2025 WebEducationLab - {t('home.rights')}</p>
       </footer>
     </div>
   )

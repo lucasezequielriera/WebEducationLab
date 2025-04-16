@@ -23,7 +23,13 @@
       "ctaTitle": "Únete hoy mismo",
       "ctaDescription": "Comienza tu viaje de aprendizaje con WebEducationLab.",
       "login": "Iniciar sesión",
-      "register": "Registrarse"
+      "register": "Registrarse",
+      "price1": "$20/mes",
+      "price2": "$50/mes",
+      "price3": "$100/mes",
+      "comment1": "Una plataforma increíble para aprender de forma interactiva. ¡Recomendada al 100%!",
+      "comment2": "Excelente contenido, fácil de seguir y muy útil para mejorar mis habilidades técnicas.",
+      "rights": "Todos los derechos reservados"
     }
   }
   
